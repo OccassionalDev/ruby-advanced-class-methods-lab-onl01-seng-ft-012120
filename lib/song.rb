@@ -62,7 +62,8 @@ class Song
     
     song_file_parts[1] = second_part_without_mp3[0]
     
-    artist_name = 
+    artist_name = song_file_parts[0]
+    song_name = song_file_parts[1]
   
   end 
 
