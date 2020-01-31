@@ -52,7 +52,7 @@ class Song
   end 
   
   def self.alphabetical
-    return @@all.sort
+    return @@all.sort_by()
   end 
 
 end
