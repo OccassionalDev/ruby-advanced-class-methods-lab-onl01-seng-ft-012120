@@ -82,8 +82,14 @@ class Song
     file_parts[1].slice!(".mp3")
     #binding.pry
     
+    artist_name = file_parts[0]
+    song_name = file_parts[1]
     
+    new_song = Song.create
+    new_song.name = song_name
+    new_song.artist_name = artist_name
     
+    return new_song
   end 
   
   def self.destroy_all
