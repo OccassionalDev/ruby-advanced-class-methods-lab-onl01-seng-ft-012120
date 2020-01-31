@@ -57,9 +57,9 @@ class Song
   
   def self.new_from_filename(file_name)
     song_file_parts = file_name.split(" - ")
-    binding.pry
     
     song_without_mp3 = song_file_parts[1].split(".mp3")
+    binding.pry
   end 
 
 end
