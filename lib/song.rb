@@ -50,5 +50,9 @@ class Song
       return Song.create_by_name(name)
     end 
   end 
+  
+  def self.alphabetical
+    return @@all.sort
+  end 
 
 end
