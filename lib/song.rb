@@ -61,6 +61,8 @@ class Song
     second_part_without_mp3 = song_file_parts[1].split(".mp3")
     
     song_file_parts[1] = second_part_without_mp3[0]
+    
+    artist_name = 
   
   end 
 
