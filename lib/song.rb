@@ -78,7 +78,8 @@ class Song
   
   def self.create_from_filename(file_name)
     file_parts = file_name.split(" - ")
-    binding.pry
+    
+    file_parts[1].slice!(".mp3")
     
   end 
   
