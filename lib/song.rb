@@ -59,7 +59,7 @@ class Song
     song_file_parts = file_name.split(" - ")
     
     song_without_mp3 = song_file_parts[1].split(".mp3")
-    binding.pry
+  
   end 
 
 end
