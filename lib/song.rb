@@ -43,7 +43,9 @@ class Song
   end 
   
   def self.find_or_create_by_name(name)
-    song_to_be_found = 
+    current_song = Song.find_by_name(name)
+    
+    if current_song
     
   end 
 
