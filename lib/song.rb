@@ -64,6 +64,8 @@ class Song
     
     song_file_parts[1] = second_part_without_mp3[0]
     
+    #binding.pry
+    
     #Step 3: Store the artist and song name in new variables
     artist_name = song_file_parts[0]
     song_name = song_file_parts[1]
