@@ -58,7 +58,9 @@ class Song
   def self.new_from_filename(file_name)
     song_file_parts = file_name.split(" - ")
     
-    song_without_mp3 = song_file_parts[1].split(".mp3")
+    second_part_without_mp3 = song_file_parts[1].split(".mp3")
+    
+    song_file_parts[1] = second_part_without_mp3[0]
   
   end 
 
