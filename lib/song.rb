@@ -55,6 +55,8 @@ class Song
     return @@all.sort_by{|song| song.name}.uniq
   end 
   
-  def 
+  def self.new_from_filename(file_name)
+    
+  end 
 
 end
