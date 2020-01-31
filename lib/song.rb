@@ -71,9 +71,9 @@ class Song
     #Step 4: Create the new Song and return
     new_song = Song.new
     new_song.name = song_name
-    new_song.artist
+    new_song.artist_name = artist_name
     
-  
+    return new_song
   end 
 
 end
