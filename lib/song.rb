@@ -80,7 +80,9 @@ class Song
     file_parts = file_name.split(" - ")
     
     file_parts[1].slice!(".mp3")
-    binding.pry
+    #binding.pry
+    
+    
     
   end 
   
