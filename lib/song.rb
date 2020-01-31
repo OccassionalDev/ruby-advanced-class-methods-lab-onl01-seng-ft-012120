@@ -60,7 +60,7 @@ class Song
     song_file_parts = file_name.split(" - ")
     
     #Step 2: Remove the .mp3 and update the original array
-    song_file_parts[1] = song_file_parts[1].delete(".mp3")
+    song_file_parts[1] = song_file_parts[1].delete ".mp3"
     
     #binding.pry
     
