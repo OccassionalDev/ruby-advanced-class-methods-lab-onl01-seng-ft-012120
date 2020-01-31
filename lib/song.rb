@@ -68,8 +68,9 @@ class Song
     artist_name = song_file_parts[0]
     song_name = song_file_parts[1]
     
-    #Step 4: 
+    #Step 4: Create the new Song and return
     new_song = Song.new
+    new_song.name = 
     
   
   end 
