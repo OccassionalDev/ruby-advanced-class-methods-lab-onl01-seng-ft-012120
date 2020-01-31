@@ -68,6 +68,7 @@ class Song
     artist_name = song_file_parts[0]
     song_name = song_file_parts[1]
     
+    #Step 4: 
     new_song = Song.new
     
   
