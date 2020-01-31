@@ -42,6 +42,9 @@ class Song
     return false
   end 
   
-  def self.find_or_create_by_name
+  def self.find_or_create_by_name(name)
+    song_to_be_found = 
+    
+  end 
 
 end
