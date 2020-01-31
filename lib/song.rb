@@ -45,8 +45,12 @@ class Song
   def self.find_or_create_by_name(name)
     current_song = Song.find_by_name(name)
     
-    if current_song
-    
+    if current_song = false
+      return Song.create_by_name(name)
+      
+    else 
+      return current_song
+    end
   end 
 
 end
